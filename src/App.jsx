@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
           <Route path="/authenticate" element={<Authentication />} />
+
           <Route path="/profile" element={<UserProfile />} />
           <Route path="/saving" element={<SavingGoals />} />
         </Routes>
