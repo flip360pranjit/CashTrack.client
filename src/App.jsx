@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar, Footer } from "./components/index";
 import { Home, Error, Authentication } from "./pages/index";
-import About from "./components/About/About";
+import UserProfile from "./components/UserProfile/UserProfile";
+import SavingGoals from "./components/SavingGoals/SavingGoals";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
           <Route path="/authenticate" element={<Authentication />} />
-          <Route path="/about" element={<About />} />
+
+          <Route path="/profile" element={<UserProfile />} />
+          <Route path="/saving" element={<SavingGoals />} />
         </Routes>
       </BrowserRouter>
       <Footer />
