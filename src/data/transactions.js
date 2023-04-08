@@ -1,0 +1,117 @@
+export const transactionData = [
+  {
+    transactionId: "TXSCAN2102231651587876998585",
+    providerReferenceId: "T2102231652258076998155",
+    amount: 100,
+    paymentState: "PAYMENT_SUCCESS",
+    transactionDate: "2021-02-23 16:52:27.611",
+    payResponseCode: "SUCCESS",
+    paymentModes: [
+      {
+        type: "WALLET",
+        amount: 100,
+      },
+    ],
+    transactionContext: {
+      qrCodeId: "Q06417857",
+      posDeviceId: null,
+      storeId: "MS1906251249399153698572",
+      terminalId: "MST1906251250336133698174",
+    },
+    mobileNumber: "Shankhajyoti",
+    phoneNumber: "94XXXXX987",
+    name: "Shankhajyoti",
+  },
+  {
+    transactionId: "TXSCAN2102231651587876998585",
+    providerReferenceId: "T2102231652258076998155",
+    amount: 450,
+    paymentState: "PAYMENT_SUCCESS",
+    transactionDate: "2021-02-23 16:52:27.611",
+    payResponseCode: "SUCCESS",
+    paymentModes: [
+      {
+        type: "WALLET",
+        amount: 450,
+      },
+    ],
+    transactionContext: {
+      qrCodeId: "Q06417857",
+      posDeviceId: null,
+      storeId: "MS1906251249399153698572",
+      terminalId: "MST1906251250336133698174",
+    },
+    mobileNumber: "Shankhajyoti",
+    phoneNumber: "94XXXXX987",
+    name: "Shankhajyoti",
+  },
+  {
+    transactionId: "TXSCAN2102231651587876998585",
+    providerReferenceId: "T2102231652258076998155",
+    amount: 200,
+    paymentState: "PAYMENT_SUCCESS",
+    transactionDate: "2021-02-23 16:52:27.611",
+    payResponseCode: "SUCCESS",
+    paymentModes: [
+      {
+        type: "WALLET",
+        amount: 200,
+      },
+    ],
+    transactionContext: {
+      qrCodeId: "Q06417857",
+      posDeviceId: null,
+      storeId: "MS1906251249399153698572",
+      terminalId: "MST1906251250336133698174",
+    },
+    mobileNumber: "Shankhajyoti",
+    phoneNumber: "94XXXXX987",
+    name: "Shankhajyoti",
+  },
+  {
+    transactionId: "TXSCAN2102231651587876998585",
+    providerReferenceId: "T2102231652258076998155",
+    amount: 100,
+    paymentState: "PAYMENT_SUCCESS",
+    transactionDate: "2021-02-23 16:52:27.611",
+    payResponseCode: "SUCCESS",
+    paymentModes: [
+      {
+        type: "WALLET",
+        amount: 100,
+      },
+    ],
+    transactionContext: {
+      qrCodeId: "Q06417857",
+      posDeviceId: null,
+      storeId: "MS1906251249399153698572",
+      terminalId: "MST1906251250336133698174",
+    },
+    mobileNumber: "Shankhajyoti",
+    phoneNumber: "94XXXXX987",
+    name: "Shankhajyoti",
+  },
+  {
+    transactionId: "TXSCAN2102231651587876998585",
+    providerReferenceId: "T2102231652258076998155",
+    amount: 100,
+    paymentState: "PAYMENT_SUCCESS",
+    transactionDate: "2021-02-23 16:52:27.611",
+    payResponseCode: "SUCCESS",
+    paymentModes: [
+      {
+        type: "WALLET",
+        amount: 100,
+      },
+    ],
+    transactionContext: {
+      qrCodeId: "Q06417857",
+      posDeviceId: null,
+      storeId: "MS1906251249399153698572",
+      terminalId: "MST1906251250336133698174",
+    },
+    mobileNumber: "Shankhajyoti",
+    phoneNumber: "94XXXXX987",
+    name: "Shankhajyoti",
+  },
+];

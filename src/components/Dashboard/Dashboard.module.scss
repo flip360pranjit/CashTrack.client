@@ -1,0 +1,64 @@
+// Sidebar
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 200px;
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    text-decoration: none;
+    button {
+      background: none;
+      outline: none;
+      border: none;
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      color: #454545;
+      text-decoration: none;
+      cursor: pointer;
+      span {
+        margin-left: 7px;
+        text-decoration: none;
+      }
+    }
+    button:hover {
+      color: #000;
+    }
+  }
+}
+
+// Overview
+.dashboardContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+// PieChart
+.piechartContainer {
+  width: 500px;
+  height: 500px;
+}
+
+// Recent Transactions
+.recent {
+  width: 700px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 30px;
+  ul {
+    li {
+      display: flex;
+      margin-top: 10px;
+      font-size: 20px;
+      color: #454545;
+    }
+  }
+}

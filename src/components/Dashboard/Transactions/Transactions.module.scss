@@ -1,0 +1,18 @@
+.transactionDiv {
+  margin: 20px;
+  .transactions {
+    padding: 50px;
+    background: #fff;
+    border-radius: 5px;
+    table {
+      border-collapse: collapse;
+      thead {
+        font-size: 2rem;
+      }
+      thead th,
+      tbody td {
+        padding: 2rem;
+      }
+    }
+  }
+}

@@ -2,8 +2,10 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar, Footer } from "./components/index";
 import { Home, Error, Authentication } from "./pages/index";
-import UserProfile from "./components/UserProfile/UserProfile";
-import SavingGoals from "./components/SavingGoals/SavingGoals";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Overview from "./components/Dashboard/Overview/Overview";
+import Transactions from "./components/Dashboard/Transactions/Transactions";
+
 
 function App() {
   return (
@@ -14,14 +16,16 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
           <Route path="/authenticate" element={<Authentication />} />
-
-          <Route path="/profile" element={<UserProfile />} />
-          <Route path="/saving" element={<SavingGoals />} />
+          <Route path="dashboard" element={<Dashboard />}>
+            <Route path="" element={<Overview />} />
+            <Route path="mytransactions" element={<Transactions />} />
+          </Route>
         </Routes>
       </BrowserRouter>
       <Footer />
     </>
   );
 }
+
 
 export default App;

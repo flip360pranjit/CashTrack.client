@@ -1,0 +1,53 @@
+:root {
+  --hero-button-color: #0081c9;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 70px;
+  font-family: "Poppins";
+  .leftDiv {
+    margin-top: 20px;
+    h1 {
+      font-size: 80px;
+    }
+    p {
+      font-size: 40px;
+      margin-top: 20px;
+      color: #454545;
+    }
+    .buttonDiv {
+      margin-top: 30px;
+      display: flex;
+      .button {
+        outline: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        font-size: 28px;
+        border-radius: 3px;
+      }
+      .dashboard {
+        background: var(--hero-button-color);
+        color: #ffffff;
+        margin-right: 40px;
+      }
+      .showTransactions {
+        border: 0.1625rem solid var(--hero-button-color);
+        color: var(--hero-button-color);
+      }
+      .dashboard:hover {
+        background: #19376d;
+      }
+      .showTransactions:hover {
+        background: #eeeeee;
+      }
+    }
+  }
+  .rightDiv {
+    img {
+      width: 550px;
+    }
+  }
+}
