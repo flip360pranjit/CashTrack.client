@@ -3,9 +3,11 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import style from "./Navbar.module.scss";
 import Logo from "../../assets/logo.png";
 
+
 function Navbar() {
   const [isClicked, setIsClicked] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
 
   useEffect(() => {
     const onScroll = () => {
@@ -19,9 +21,11 @@ function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+
   const toggleClicked = () => {
     setIsClicked(!isClicked);
   };
+
 
   return (
     <nav
@@ -70,5 +74,6 @@ function Navbar() {
     </nav>
   );
 }
+
 
 export default Navbar;

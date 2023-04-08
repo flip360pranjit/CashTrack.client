@@ -12,6 +12,7 @@
   font-family: "Roboto";
   transition: 0.4s ease-in-out;
 
+
   .brand {
     display: flex;
     align-items: center;
@@ -38,6 +39,7 @@
       color: black;
     }
   }
+
 
   ul {
     display: flex;
@@ -66,6 +68,7 @@
   }
 }
 
+
 .scrolled {
   background: #03001c;
   .brand {
@@ -87,6 +90,7 @@
     }
   }
 }
+
 
 @media screen and (max-width: 992px) {
   .navbar {

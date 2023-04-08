@@ -6,6 +6,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import Overview from "./components/Dashboard/Overview/Overview";
 import Transactions from "./components/Dashboard/Transactions/Transactions";
 
+
 function App() {
   return (
     <>
@@ -25,5 +26,6 @@ function App() {
     </>
   );
 }
+
 
 export default App;
